@@ -1,21 +1,23 @@
 # Hello World
 
-This project includes a Python program that prints the sum of `n` numbers.
+This project includes programs that print the sum from `1` to `n`.
 
-## Run
+## Run (Python)
 
 ```bash
 python3 sum_n_numbers.py
 ```
 
+## Run (C++)
+
+```bash
+g++ -std=c++17 sum_n_numbers.cpp -o sum_n_numbers
+./sum_n_numbers
+```
+
 ## Example
 
 ```text
-Enter how many numbers you want to sum: 5
-Enter number 1: 1
-Enter number 2: 2
-Enter number 3: 3
-Enter number 4: 4
-Enter number 5: 5
+Enter a number: 5
 Sum: 15
 ```
